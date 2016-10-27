@@ -1,0 +1,72 @@
+body {
+	font-family: $font-family-primary;
+	font-size: $font-size-base;
+	color: $font-color-base;
+	line-height: $line-height-base;
+	background: #fff;
+}
+
+h1,
+h2 {
+	width: 100%;
+	font-family: $font-family-secondary;
+	color: $brand-color-secondary;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3,
+h3 a {
+	color: $brand-color-primary;
+	font-size: 26px;
+}
+
+h4 {
+	margin-top: 0;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+a {
+	position: relative;
+	color: $brand-color-primary;
+}
+
+.link--invert {
+	color: $white;
+}
+
+ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+li {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+address {
+	margin-bottom: 20px;
+}
+
+section {
+	padding: 40px;
+	@media (min-width: 768px) {
+		padding: 100px 0;
+	}
+}
+
+footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 20px 0;
+	text-align: center;
+}
