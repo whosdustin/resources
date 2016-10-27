@@ -22,7 +22,7 @@ defaults:
     type: linkList
   values:
     layout: link-list
-    permalink: '/:categories/:path/'
+    permalink: "/:categories/:path/"
     list:
     - title: ''
       link: ''
