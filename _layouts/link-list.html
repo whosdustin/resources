@@ -1,0 +1,11 @@
+---
+layout: defaults
+---
+
+{{ content }}
+
+<ul>
+	{% for item in page.list %}
+	<li><a href="{{item.link}}" rel="nofollow">{{item.title}}</a></li>
+	{% endfor %}
+</ul>
