@@ -2,8 +2,8 @@
 title: Resources
 timezone: EST
 collections:
-  nomad:
-    title: Nomad
+  linkList:
+    title: Link List
     output: true
   posts:
     title: Posts
@@ -19,7 +19,7 @@ defaults:
     layout: posts
 - scope:
     path: ''
-    type: 'nomad'
+    type: 'linkList'
   values:
     layout: link-list
     list:
