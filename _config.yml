@@ -25,13 +25,13 @@ defaults:
     type: categories
   values:
     layout: page
-    permalink: '/:path'
+    permalink: "/:path"
 - scope:
     path: ''
     type: linkList
   values:
     layout: link-list
-    permalink: '/:categories/:path/'
+    permalink: "/:categories/:path/"
     list:
     - title: ''
       link: ''
