@@ -3,6 +3,9 @@ layout: default
 ---
 
 <h1>Resources</h1>
-{% for category in site.linkList.categories %}
-	<h2>{{ category}}</h2>
+
+{% for list in site.linkList %}
+	{% for category in list.categories %}
+		<li><a href="{{category | prepend: site.baseurl }}">{{ category }}</a></li>
+	{% endfor %}
 {% endfor %}
