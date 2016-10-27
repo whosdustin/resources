@@ -5,6 +5,7 @@ collections:
   categories:
     title: Categories
     output: true
+    permalink: "/:path"
   linkList:
     title: Link List
     output: true
