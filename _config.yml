@@ -1,6 +1,6 @@
 ---
 title: Resources
-timezone: UTC -5
+timezone: EST
 collections:
   nomad:
     title: Nomad
