@@ -1,6 +1,6 @@
 ---
 title: Resources
-timezone: EST
+timezone: UTC -5
 collections:
   nomad:
     title: Nomad
@@ -17,6 +17,14 @@ defaults:
     type: posts
   values:
     layout: posts
+- scope:
+    path: ''
+    type: 'nomad'
+  values:
+    layout: link-list
+    list:
+      - title: ''
+      - link: ''
 email: dustin@delatore.me
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search

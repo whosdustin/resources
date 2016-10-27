@@ -1,7 +1,7 @@
 ---
 title: Work
 date: 2016-10-27 22:37:00 Z
-List:
+list:
 - title: Topcoder
   link: https://www.topcoder.com/
 - title: Smashing Magazine
@@ -18,7 +18,7 @@ List:
   link: https://weworkremotely.com/
 - title: Weekly Design Jobs
   link: http://weeklydesignjobs.com/
-layout: page
+layout: link-list
 ---
 
 A constantly growing list of websites to look for work remotely.
