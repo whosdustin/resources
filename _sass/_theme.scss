@@ -54,3 +54,14 @@
 		color: $brand-color-secondary;
 	}
 }
+
+.header__wrapper h2 a {
+	display: inline-block;
+	width: 100px;
+	opacity: 0.8;
+	color: $brand-color-secondary;
+	text-decoration: none;
+	&:visited {
+		color: $brand-color-secondary;
+	}
+}
