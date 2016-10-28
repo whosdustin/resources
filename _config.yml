@@ -1,6 +1,6 @@
 ---
 title: Resources
-timezone: EST
+timezone: Pacific/Pago_Pago
 collections:
   posts:
     title: Posts
@@ -19,12 +19,9 @@ defaults:
     - title: ''
       link: ''
 email: dustin@delatore.me
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-'
-baseurl: ''
+description: This project is a place where I can host my favorite resources for both
+  personal and professional use.
+baseurl: 
 url: http://example.com
 twitter_username: whos_dustin
 github_username: whosdustin
