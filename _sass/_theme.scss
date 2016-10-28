@@ -1,3 +1,7 @@
+// SVG classes
+.st0{fill: $brand-color-secondary;}
+.st1{fill:lighten($brand-color-secondary, 25%)}
+
 .section--primary {
 	background: $brand-color-primary;
 	h1, h2, h3 {
@@ -44,4 +48,9 @@
 	width: 100px;
 	margin: 30px 20px 0 0;
 	opacity: 0.8;
+	color: $brand-color-secondary;
+	text-decoration: none;
+	&:visited {
+		color: $brand-color-secondary;
+	}
 }

@@ -4,21 +4,22 @@ layout: default
 
 <section>
 	<div class="main__wrapper">
-		<h1>Resources</h1>
-		<p>
-			This project is a place where I can host my favorite resources for both personal and professional use.
-		</p>
-		{% for category in site.categories %}
-			<h2>{{category | first | capitalize }}</h2>
-			<ul>
-				{% for posts in category %}
-					{% for post in posts %}
-						{% if post.url %}
-							<li><a href="{{post.url | prepend: site.baseurl }}">{{post.title}}</a></li>
-						{% endif %}
+		<div class="l__half">
+			<p>
+				This project is a place where I can host my favorite resources for both personal and professional use.
+			</p>
+			{% for category in site.categories %}
+				<h2>{{category | first | capitalize }}</h2>
+				<ul>
+					{% for posts in category %}
+						{% for post in posts %}
+							{% if post.url %}
+								<li><a href="{{post.url | prepend: site.baseurl }}">{{post.title}}</a></li>
+							{% endif %}
+						{% endfor %}
 					{% endfor %}
-				{% endfor %}
-			</ul>
-		{% endfor %}
+				</ul>
+			{% endfor %}
+		</div>
 	</div>
 </section>
