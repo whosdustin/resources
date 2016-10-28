@@ -22,6 +22,8 @@ list:
   link: https://www.thesurfoffice.com/
 - title: Copass
   link: https://www.copass.org/
+- title: We Work
+  link: https://www.wework.com/
 ---
 
 A list of places and spaces a digital nomad would dream to be.
