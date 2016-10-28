@@ -1,6 +1,6 @@
 ---
 title: Places
-date: 2016-10-27 20:46:00 -04:00
+date: 2016-10-28 11:24:00 -04:00
 categories:
 - nomad
 list:
@@ -20,6 +20,8 @@ list:
   link: https://www.roam.co/
 - title: Surf Office
   link: https://www.thesurfoffice.com/
+- title: Copass
+  link: https://www.copass.org/
 ---
 
 A list of places and spaces a digital nomad would dream to be.
