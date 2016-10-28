@@ -20,7 +20,6 @@ defaults:
     type: posts
   values:
     layout: link-list
-    permalink: "/:categories/:path/"
     list:
     - title: ''
       link: ''
