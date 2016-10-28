@@ -22,7 +22,7 @@ email: dustin@delatore.me
 description: This project is a place where I can host my favorite resources for both
   personal and professional use.
 baseurl: 
-url: http://example.com
+url: https://whosdustin.com/resources
 twitter_username: whos_dustin
 github_username: whosdustin
 markdown: kramdown
