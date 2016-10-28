@@ -2,12 +2,6 @@
 title: Resources
 timezone: EST
 collections:
-  categories:
-    title: Categories
-    output: true
-  linkList:
-    title: Link List
-    output: true
   posts:
     title: Posts
     output: true
@@ -20,6 +14,7 @@ defaults:
     type: posts
   values:
     layout: link-list
+    permalink: "/:categories/:title/"
     list:
     - title: ''
       link: ''
