@@ -22,3 +22,4 @@ list:
   link: http://weeklydesignjobs.com/
 ---
 
+A constantly growing list of websites to look for work remotely.
