@@ -1,0 +1,25 @@
+---
+title: Places
+date: 2016-10-27 20:46:00 -04:00
+categories:
+- nomad
+list:
+- title: Teleport
+  link: https://teleport.org/
+- title: Nomad House
+  link: https://nomadhouse.io/
+- title: Hubud
+  link: http://www.hubud.org/
+- title: Chiang Mai Buddy
+  link: https://chiangmaibuddy.com/
+- title: Nomad List
+  link: https://nomadlist.com/
+- title: 13 Best Places in the World to Work Remotely
+  link: http://www.telegraph.co.uk/finance/jobs/11363335/The-13-best-places-in-the-world-to-work-remotely.html
+- title: Roam
+  link: https://www.roam.co/
+- title: Surf Office
+  link: https://www.thesurfoffice.com/
+---
+
+A list of places and spaces a digital nomad would dream to be.
