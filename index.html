@@ -5,7 +5,9 @@ layout: default
 <section>
 	<div class="main__wrapper">
 		<h1>Resources</h1>
-
+		<p>
+			This project is a place where I can host my favorite resources for both personal and professional use.
+		</p>
 		{% for category in site.categories %}
 			<h2>{{category | first | capitalize }}</h2>
 			{% for posts in category %}
