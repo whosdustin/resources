@@ -1,0 +1,21 @@
+---
+title: Videos
+date: 2016-10-28 11:33:00 -04:00
+categories:
+- Inspirational
+list:
+- title: 'Seth Godin: This is Broken'
+  link: http://www.ted.com/talks/seth_godin_this_is_broken_1
+- title: 'Jason Silva: The Biological Advantage of Being Awestruck'
+  link: https://vimeo.com/46264514
+- title: 'Stefan Sagmeister: The Power of Time Off'
+  link: https://www.youtube.com/watch?v=MNuOmTQdFjA
+- title: VW Bluemotion Stairs ddb, Stockholm
+  link: https://www.youtube.com/watch?v=hISRlatcmX0
+- title: The Power of Words
+  link: https://www.youtube.com/watch?v=Hzgzim5m7oU
+- title: 'Dan Ariely: Are we in control of our decisions?'
+  link: https://www.youtube.com/watch?v=9X68dm92HVI
+---
+
+From TED talks to short films, these are videos that have and continue to inspire me every time I watch them.
