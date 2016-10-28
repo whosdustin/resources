@@ -3,14 +3,14 @@ body {
 	font-size: $font-size-base;
 	color: $font-color-base;
 	line-height: $line-height-base;
-	background: #fff;
+	background: $brand-color-primary;
 }
 
 h1,
 h2 {
 	width: 100%;
+	font-weight: 200;
 	font-family: $font-family-secondary;
-	color: $brand-color-secondary;
 }
 
 h1 {
@@ -23,7 +23,6 @@ h2 {
 
 h3,
 h3 a {
-	color: $brand-color-primary;
 	font-size: 26px;
 }
 
@@ -35,7 +34,6 @@ h4 {
 
 a {
 	position: relative;
-	color: $brand-color-primary;
 }
 
 .link--invert {
