@@ -35,4 +35,4 @@ url: http://example.com
 twitter_username: whos_dustin
 github_username: whosdustin
 markdown: kramdown
-permalink: "/:title/"
+permalink: none
