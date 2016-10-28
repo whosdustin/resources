@@ -1,5 +1,5 @@
 ---
-title: Work
+title: Remote Work
 date: 2016-10-27 18:13:00 -05:00
 categories:
 - nomad
