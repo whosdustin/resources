@@ -16,6 +16,8 @@ list:
   link: https://www.youtube.com/watch?v=Hzgzim5m7oU
 - title: 'Dan Ariely: Are we in control of our decisions?'
   link: https://www.youtube.com/watch?v=9X68dm92HVI
+- title: 'Sonder: The Realization That Everyone Has A Story'
+  link: http://youtu.be/AkoML0_FiV4
 ---
 
 From TED talks to short films, these are videos that have and continue to inspire me every time I watch them.
