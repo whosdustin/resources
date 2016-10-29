@@ -44,10 +44,7 @@
 }
 
 .brand__header {
-	display: inline-block;
-	width: 100px;
-	margin: 30px 20px 0 0;
-	opacity: 0.8;
+	margin: 0;
 	color: $brand-color-secondary;
 	text-decoration: none;
 	&:visited {
@@ -55,13 +52,10 @@
 	}
 }
 
-.header__wrapper h2 a {
-	display: inline-block;
-	width: 100px;
-	opacity: 0.8;
+.header__wrapper {
+	display: flex;
+	justify-content: center;
+	width: 600px;
+	text-align: center;
 	color: $brand-color-secondary;
-	text-decoration: none;
-	&:visited {
-		color: $brand-color-secondary;
-	}
 }
