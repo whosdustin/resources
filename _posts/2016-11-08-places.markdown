@@ -1,6 +1,6 @@
 ---
 title: Places
-date: 2016-10-28 11:24:00 -04:00
+date: 2016-11-08 22:39:00 -05:00
 categories:
 - nomad
 list:
@@ -24,6 +24,8 @@ list:
   link: https://www.copass.org/
 - title: We Work
   link: https://www.wework.com/
+- title: Digital Outpost
+  link: http://digitaloutposts.com/
 ---
 
 A list of places and spaces a digital nomad would dream to be.
