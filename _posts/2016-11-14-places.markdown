@@ -1,6 +1,6 @@
 ---
 title: Places
-date: 2016-11-08 22:39:00 -05:00
+date: 2016-11-14 09:49:00 -05:00
 categories:
 - nomad
 list:
