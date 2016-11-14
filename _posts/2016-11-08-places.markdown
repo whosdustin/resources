@@ -26,6 +26,8 @@ list:
   link: https://www.wework.com/
 - title: Digital Outpost
   link: http://digitaloutposts.com/
+- title: Dojo Bali
+  link: http://www.dojobali.org/en
 ---
 
 A list of places and spaces a digital nomad would dream to be.
