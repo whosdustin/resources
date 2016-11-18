@@ -1,6 +1,6 @@
 ---
 title: Videos
-date: 2016-10-29 13:33:00 -04:00
+date: 2016-11-18 10:05:00 -05:00
 categories:
 - Inspirational
 list:
@@ -20,6 +20,8 @@ list:
   link: http://youtu.be/AkoML0_FiV4
 - title: I Sleep in the Woods
   link: http://youtu.be/e94Jnu2UgKQ
+- title: 'Simon Sinek: Understanding The Game We''re Playing'
+  link: http://creativemornings.com/talks/simon-sinek-251/2
 ---
 
 From TED talks to short films, these are videos that have and continue to inspire me every time I watch them.
