@@ -1,6 +1,6 @@
 ---
 title: Remote Work
-date: 2016-10-27 19:24:00 -05:00
+date: 2016-03-03 20:24:00 -05:00
 categories:
 - nomad
 list:
@@ -20,6 +20,8 @@ list:
   link: https://weworkremotely.com/
 - title: Weekly Design Jobs
   link: http://weeklydesignjobs.com/
+- title: Remote.com
+  link: https://remote.com/jobs
 ---
 
 A constantly growing list of websites to look for work remotely.
