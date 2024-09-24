@@ -1,0 +1,12 @@
+---
+import Default from '../layouts/Default.astro';
+import LinkList from '../components/LinkList.astro';
+
+import { turso } from '../turso'
+
+const { rows } = await turso.execute('SELECT * FROM category')
+
+---
+<Default>
+  <LinkList rows={rows} />
+</Default>

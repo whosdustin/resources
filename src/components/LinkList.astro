@@ -1,0 +1,30 @@
+---
+import type { Row } from '@libsql/client';
+import FormattedDate from './FormattedDate.astro';
+
+interface Props {
+  rows: Row[]
+}
+
+const { rows } = Astro.props;
+
+---
+<table>
+  <tr>
+		<th style="min-width: 300px" align="left">Name</th>
+		<th align="left">Created</th>
+	</tr>
+  {rows.map(({ name, link, created }) => (
+    <tr>
+      <td>
+        {link
+          ? <a href={link as string} rel="nofollow">{name}</a>
+          : <a href={'/' + name}>{name}/</a>
+        }
+      </td>
+      <td>
+        {created ? <FormattedDate date={new Date(created as string)} /> : '-'}
+      </td>
+    </tr>
+  ))}
+</table>

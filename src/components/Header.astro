@@ -1,0 +1,15 @@
+---
+import { SITE_TITLE } from '../consts';
+
+const { path } = Astro.props;
+---
+
+<header>
+	<nav>
+	  {path
+			? <h2>{SITE_TITLE + '/' + path}</h2>
+			: <h2>{SITE_TITLE}</h2>
+		}
+	</nav>
+</header>
+<hr />

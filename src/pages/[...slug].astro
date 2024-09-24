@@ -1,0 +1,26 @@
+---
+import Default from '../layouts/Default.astro';
+import LinkList from '../components/LinkList.astro';
+import { turso } from '../turso';
+
+export async function getStaticPaths() {
+const { rows } = await turso.execute('SELECT * FROM category');
+  return rows.map(row => ({
+    params: { slug: row.name },
+    props: row
+  }))
+}
+
+const { slug } = Astro.params;
+const { id } = Astro.props;
+
+const { rows } = await turso.execute({
+  sql: 'SELECT * FROM list WHERE category_id = ?',
+  args: [id]
+})
+
+---
+<Default page={slug}>
+  <a href="/" style="padding: 1rem 0; display:flex;">[return to /resources]</a>
+  <LinkList rows={rows} />
+</Default>
