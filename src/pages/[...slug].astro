@@ -3,6 +3,7 @@ import Default from '../layouts/Default.astro';
 import LinkList from '../components/LinkList.astro';
 import { turso } from '../turso';
 
+export const prerender = true;
 export async function getStaticPaths() {
 const { rows } = await turso.execute('SELECT * FROM category');
   return rows.map(row => ({

@@ -1,7 +1,7 @@
 ---
 import Default from '../layouts/Default.astro';
 import LinkList from '../components/LinkList.astro';
-
+export const prerender = true;
 import { turso } from '../turso'
 
 const { rows } = await turso.execute('SELECT * FROM category')
