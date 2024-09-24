@@ -8,7 +8,7 @@ import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://resources.whosdustin.com',
   integrations: [mdx(), sitemap()],
   output: 'server',
   adapter: cloudflare(),
